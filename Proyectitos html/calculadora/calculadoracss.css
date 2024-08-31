@@ -1,0 +1,81 @@
+* {
+    /* Basico */
+    margin: 0%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #a7c5bd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #e5ddcb;
+    font-size: 70px;
+    padding: 50px;
+    text-align: center;
+
+    /* Borde a la palabra */
+    /* -webkit-text-stroke: 1px #eae2cf; */
+}
+
+.contenedor {
+    text-align: center;
+    background: #eb7b59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    margin: 10px 0 20px 700px;
+    border-radius: 20px;
+    opacity: 0.85;
+    overflow: hidden; 
+}
+
+.contenedor p {
+    font-size: 30px;
+    color: #cf4647;
+    text-align: center;
+}
+
+.contenedor input {
+    background: #e5ddcb;
+    margin: 10px 0;
+    width: 240px;
+    height: 40px;
+    border: 2px solid #cf4647; /* Grosor, estilo y color del borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 5px; /* Espacio interno entre el borde y el contenido */
+
+    text-align: center; /* Centrar texto horizontalmente */
+    align-items: center; /* Centrar texto verticalmente */
+
+}
+
+.contenedor input:focus {
+    border-color: #8f3131; /* Cambia el color del borde cuando el input tiene foco */
+    outline: none; /* Elimina el borde adicional que algunos navegadores aplican al enfocar */
+}
+
+.boton {
+    font-size: 20px;
+    color: #cf4647;
+    border: 2px solid transparent; /* Borde inicial transparente */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;  /*Añade una transición suave */
+}
+ .boton:hover {
+
+    background: #cf4647;
+    color: #bbc5c2;
+    border-color: #8f3131; /* Cambia el color del borde */
+} 

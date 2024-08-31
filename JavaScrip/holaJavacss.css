@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 400px;
+    height: 20px;
+}
+
+/* .caja {
+    padding: 20px 10px;
+    text-align: center;
+    margin: 10px;
+    background: black;
+    font-size: 24px;
+    color: white;
+} */
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #eb0258;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gris {
+    background: gray;
+}

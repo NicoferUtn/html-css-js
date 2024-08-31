@@ -1,0 +1,362 @@
+/* h1 {
+    color: red;
+}
+
+.Textito {
+    color: aquamarine;
+}
+
+.tamaño {
+    font-size: 100px;
+}
+
+input[type = "password"] {
+    color: blueviolet;
+} */
+
+
+
+/* .fondo {
+    width: 600px;
+    height: 600px;
+    background: url('imagenes/kevin-wang-dlRQ7xNDZj4-unsplash.jpg') no-repeat #303030;
+    background-size: 250px;
+} */
+
+/* Sirve para botones */
+
+/* .fondo { 
+     Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e9fd+0,e2d3fb+67 
+    background: linear-gradient(to bottom,  #f1e9fd 0%,#e2d3fb 67%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+} */
+
+.Margen {
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+    background: #6b1a9b;
+    color: wheat;
+    text-align: center; /* Centro horizontalmente */
+    line-height: 100px; /* Centro verticalmente */
+    position: fixed;
+
+}
+
+
+.google {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+
+    /* Para que no tenga decoraciones */
+    text-decoration: none; 
+}
+
+
+    /* Pseudoclases (Decoraciones)*/
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Cuando ya vicitaste */
+/* a:visited {
+    color: blue;
+} */
+
+h1 {
+    /* Tipografias */
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* letter-spacing: 6px; */
+
+    /* Espacioado entre las lineas */
+    /* line-height: 40px; */
+}
+h2 {
+    text-align: center;
+}
+
+* {
+    /* Basico */
+    margin: 0%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* .caja {
+    width: 500px;
+    background: black;
+    border: 10px solid orange;
+    padding: 20px;
+    /* padding: ; */
+    /* margin: ; */
+/* }  */
+
+body {
+    background: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton {
+    margin: 20px 0;
+    background: rgb(11, 148, 211);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 20px;
+
+    border-radius: 100px;
+}
+
+.boton:hover {
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+}
+
+.caja p {
+    color: white;
+}
+
+
+.chico {
+    font-size: 14;
+    padding: 10px 15px;
+}
+.mediano {
+    font-size: 16;
+    padding: 15px 20px;
+}
+.grande {
+    font-size: 18;
+    padding: 20px 25px;
+}
+.muyGrande {
+    font-size: 20;
+    padding: 25px 30px;
+
+    /* hay distitnos tipos de borde buscar en in ternet */
+    border: 3px dotted rgb(94, 55, 5); 
+
+}
+
+
+.verde {
+    background: #259650;
+}
+.violeta {
+    background: #6b1a9b;
+}
+.naranja {
+    background: rgb(238, 120, 10);
+}
+
+/* Algunos elementos "inline" 
+a, span, img, b, i, small, cite, code, , strong, br, script, button, Input, label, select, textarea. 
+
+Se Puede cambiar con display: inline (Para que este en linea)
+                     displau: block (Para que este en bloque)
+                     diplay: inline-block (Para que este en linea y bloque) 
+                     |-> Se hace para que se pueda cambiar la altura
+
+
+Algunos elementos "block" 
+div, article, section, header, footer, aside, table, p, video, ol, ol, h1, h2, h3,, h6 */
+
+.caja {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: #187e3f;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center; /* Centro horizontalmente */
+    line-height: 100px; /* Centro verticalmente */
+    color: aliceblue;
+    
+}
+
+.segunda {
+    background:#24be5f;
+    position: relative;
+    left: 150px;
+    bottom: 120px;  /* Para mover de abajo para arriba */
+
+}
+
+.tercera {
+    background:#24be5f;
+    position: relative;
+    left: 150px;
+    bottom: 120px;  /* Para mover de abajo para arriba */
+}
+
+.cuarta {
+    position: relative;
+    bottom: 240px;
+}
+
+.cajaPadre{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    background: #0a3f1e;
+
+    /* Para que no se bugee siempre aplicar esto cuado tenes div de div */
+    overflow: hidden; 
+
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px solid rgb(0, 59, 253);
+}
+
+article {
+    background: #d3c8c8;
+    margin: 20px;
+    width: 650px;
+    height: 360px;
+    border: 3px solid rgb(126, 124, 121);
+    border-radius: 10px;
+}
+p {
+    margin: 5px;
+}
+
+
+/* box-shawdown 2px 0 20px color */
+
+@keyframes color {
+    from{background: white;}
+    to{background: black;}
+}
+
+.Menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px; 
+    /* auto es para que se quede centrado siempre */
+    margin: 20px auto; 
+}
+
+.Menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.menuBloque:hover {
+    background: #fa5f5c;
+}
+
+
+
+
+.formulario {
+    background: white;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.formulario input {
+    display: block;
+}
+
+.formulario input[type = "text"],
+.formulario input[type = "email"],
+.formulario textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 20px;
+    border: 1px solid #226fc1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    max-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type = "text"]:focs,
+.formulario input[type = "email"]:focus,
+.formulario textarea:focus {
+    border: 2px solid #4fb560;
+
+}
+
+.formulario input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    padding: 10px;
+
+    /* Para que el curso aparezca para enviar */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+.formulario input[type="submit"]:hover {
+    background: #4fb560;
+    color: white;
+}
+
+@keyframes colores {
+    /* from{background:#9EB3C2;}
+    to{background:#21295C; width: 500px;} */
+    0%{background:#9eb3c2;} 
+    25%{background: #1c7293; width: 300px;} 
+    50%{background: #065482; width: 400px;} 
+    75%{background: #1b3b6f; width: 300px;} 
+    100%{background: #9eb3c2; width: 200px;}
+
+} 
+
+@keyframes movimiento {
+    0%{transform: translate(0px);}
+    50%{transform: translate(500px);}
+    100%{transform: translate(0px);}
+}
+
+.cosa {
+    width: 200px;
+    height: 200px;
+    background: #9EB3C2;
+    /* animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    animation: colores 3s infinite;
+}
+
+
+
